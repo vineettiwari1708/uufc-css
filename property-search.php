@@ -78,7 +78,7 @@ add_action('wp_enqueue_scripts', 'enqueue_property_page_assets');
 </section>
 
 <section class="main-page-sec">
-    <h2>Grouped by Location</h2>
+    <h2>Grouped by Locat</h2>
     <div class="carousel-wrapper" id="locationCarouselWrapper">
         <button class="carousel-btn carousel-prev" id="locationPrevBtn"><i class="bi-caret-left-fill"></i></button>
         <div class="carousel-container" id="locationCarousel"></div>
