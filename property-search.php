@@ -95,6 +95,7 @@ add_action('wp_enqueue_scripts', 'enqueue_property_page_assets');
         <button class="carousel-btn carousel-next" id="statusNextBtn"><i class="bi-caret-right-fill"></i></button>
     </div>
 </section>
+php?>
 
 
 
