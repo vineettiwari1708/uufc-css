@@ -1,9 +1,4 @@
 
-<?php
-/**
- * Template Name: Property Search Page
- */
-get_header();
 
 // Fetch properties from the database
 $properties = get_posts(array(
@@ -101,4 +96,4 @@ add_action('wp_enqueue_scripts', 'enqueue_property_page_assets');
     </div>
 </section>
 
-<?php get_footer(); ?>
+
