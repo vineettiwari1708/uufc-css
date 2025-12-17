@@ -38,10 +38,10 @@ function enqueue_property_page_assets() {
         wp_enqueue_style('bootstrap-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css');
 
         // Your custom CSS
-        wp_enqueue_style('property-page-style', get_template_directory_uri() . '/assets/css/property-page.css');
+        wp_enqueue_style('property-page-style', get_template_directory_uri() . '/assets/css/property-search.css');
 
         // Your custom JS
-        wp_enqueue_script('property-page-js', get_template_directory_uri() . '/assets/js/property-page.js', array(), null, true);
+        wp_enqueue_script('property-page-js', get_template_directory_uri() . '/assets/js/property-search.js', array(), null, true);
 
         // Localize property data
         global $property_data;
