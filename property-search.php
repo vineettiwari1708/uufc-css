@@ -1,4 +1,4 @@
-
+<?php
 
 // Fetch properties from the database
 $properties = get_posts(array(
@@ -43,6 +43,7 @@ function enqueue_property_page_assets() {
     }
 }
 add_action('wp_enqueue_scripts', 'enqueue_property_page_assets');
+?>
 ?>
 <section class="search-banner-wrapper">
     <video class="bg-video" autoplay loop muted playsinline>
