@@ -310,3 +310,87 @@ h2 {
     .text-prim{color:#007bff!important;}
 
 	.btn-prim{background-color:#007bff;}
+
+
+
+
+
+
+
+
+/* Pagination container */
+.col-12 .page-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 0;
+}
+
+/* List items */
+.col-12 .page-numbers li {
+    display: inline-flex;
+}
+
+/* Links & spans */
+.col-12 .page-numbers a,
+.col-12 .page-numbers span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+/* Hover state */
+.col-12 .page-numbers a:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border-color: #0d6efd;
+}
+
+/* Active page */
+.col-12 .page-numbers .current {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border-color: #0d6efd;
+    cursor: default;
+}
+
+/* Prev & Next buttons */
+.col-12 .page-numbers .prev,
+.col-12 .page-numbers .next {
+    font-weight: 600;
+    padding: 0 18px;
+}
+
+/* Dots (...) */
+.col-12 .page-numbers .dots {
+    background: transparent;
+    border: none;
+    color: #6c757d;
+    cursor: default;
+}
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+    .col-12 .page-numbers a,
+    .col-12 .page-numbers span {
+        min-width: 34px;
+        height: 34px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}
+
