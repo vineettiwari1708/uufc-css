@@ -1,0 +1,117 @@
+[
+	{
+		"question": "Your Plot width ? (in feets)",
+		"type": "text"
+	},
+	{
+		"question": "Your Plot Depth? (in feets)",
+		"type": "text"
+	},
+	{
+		"question": "Required no. of Floors ?",
+		"type": "options",
+		"options": ["1", "2", "3", "4", "5", "6"]
+	},
+	{
+		"question": "No. of Master bedrooms required in the house?",
+		"type": "options",
+		"options": ["1", "2", "3", "4", "5", "6"]
+	},
+	{
+		"question": "No. of married couple in the family?",
+		"type": "options",
+		"options": ["1", "2", "3", "4", "5", "6"]
+	},
+	{
+		"question": "No. of Kids in the family?",
+		"type": "options",
+		"options": ["1", "2", "3", "4", "5", "6"]
+	},
+	{
+		"question": "Do you require kid separate bedroom for current/future Purpose?",
+		"type": "options",
+		"options": ["Yes", "No"]
+	},
+	{
+		"question": "Do you require extra guest room in the house ?",
+		"type": "options",
+		"options": ["Yes", "No"]
+	},
+	{
+		"question": "Kitchen should be on ?",
+		"type": "options",
+		"options": ["Ground Floor", "First Floor", "All Floors"]
+	},
+	{
+		"question": "Type of kitchen require ?",
+		"type": "options",
+		"options": ["Open", "Close"]
+	},
+	{
+		"question": "Require balcony in bedrooms?",
+		"type": "options",
+		"options": ["Yes", "No"]
+	},
+	{
+		"question": "Require small office space in the house?",
+		"type": "options",
+		"options": ["Yes", "No"]
+	},
+	{
+		"question": "Parking facility in the house?",
+		"type": "options",
+		"options": ["2 Wheeler Parking", "4 Wheeler Parking", "Both"]
+	}
+	,
+	{
+		"question": "Garden provision in the house?",
+		"type": "options",
+		"options": ["Yes", "No"]
+	}
+	,
+	{
+		"question": "Lift provision in the house?",
+		"type": "options",
+		"options": ["Yes", "No"]
+	}
+	,
+	{
+		"question": "Master Bedroom space choice",
+		"type": "options",
+		"options": ["Small", "Standard","Big"]
+	}
+	,
+	{
+		"question": "Bathroom space choice",
+		"type": "options",
+		"options": ["Small", "Standard","Big"]
+	}
+	,
+	{
+		"question": "Plot Direction",
+		"type": "options",
+		"options": ["N","NE","E","SE","S","SW","W","NW"]
+	}
+	,
+	 {
+        "question": "Site Details : Front side of the plot is adjacent to?",
+        "type": "options",
+        "options": ["Road", "Other Property"]
+    },
+    {
+        "question": "Site Details : Back side of the plot is adjacent to?",
+        "type": "options",
+        "options": ["Road", "Other Property"]
+    },
+    {
+        "question": "Site Details : Right side of the plot is adjacent to?",
+        "type": "options",
+        "options": ["Road", "Other Property"]
+    },
+    {
+        "question": "Site Details : Left side of the plot is adjacent to?",
+        "type": "options",
+        "options": ["Road", "Other Property"]
+    }
+	
+]
