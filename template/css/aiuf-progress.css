@@ -1,0 +1,73 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle at center, #111827, #030712);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        /* Container for progress and messages */
+        .container {
+            text-align: center;
+        }
+
+        /* Progress circle container */
+        .progress-wrapper {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            margin: 0 auto;
+        }
+
+        /* Circular progress ring */
+        .progress-ring {
+            transform: rotate(-90deg);
+        }
+
+        .progress-ring-bg {
+            fill: none;
+            stroke: rgba(255, 255, 255, 0.08);  /* Background ring color */
+            stroke-width: 14;
+        }
+
+        .progress-ring-fill {
+            fill: none;
+            stroke: #00f2ff;  /* Active stroke color */
+            stroke-width: 14;
+            stroke-linecap: round;
+            stroke-dasharray: 565;  /* Circumference of the circle */
+            stroke-dashoffset: 565;  /* Initially full offset (hidden) */
+            transition: stroke-dashoffset 0.15s linear;
+        }
+
+        /* Text displayed in the center of the circle */
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 34px;
+            font-weight: bold;
+            color: #00f2ff;
+            text-shadow: 0 0 15px #00f2ff;
+        }
+
+        /* AI message at the bottom */
+        #message {
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #00f2ff;
+            min-height: 40px;
+            text-shadow: 0 0 12px #00f2ff;
+            transition: opacity 0.4s ease;
+        }
+  
